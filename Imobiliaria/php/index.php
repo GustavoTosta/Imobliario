@@ -9,22 +9,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <script>
-        //Tentativa de fazer o script da menu hamburger funcionar
-        $(document).ready(function() {
-
-            $('.first-button').on('click', function() {
-
-                $('.animated-icon1').toggleClass('open');
-            });
-            $('.second-button').on('click', function() {
-
-                $('.animated-icon2').toggleClass('open');
-            });
-            $('.third-button').on('click', function() {
-
-                $('.animated-icon3').toggleClass('open');
-            });
-        });
     </script>
     <style>
         .my-float {
@@ -54,48 +38,28 @@
         <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
         </a>
-        <div class="row" style="background-color: #5D7AA6;">
-            <div class="col-sm-1">
-
-            </div>
-            <div class="col-sm-2 me-4">
-                <img src="../img/CasaTempColorida.png" class="img-fluid w-50 p-3" alt="">
-            </div>
-            <div class="col-sm-4">
-
-            </div>
-            <div class="col-sm-2" style="margin-top: 30px;">
-                <div class="col-sm-1">
-
-                </div>
-                <div class="col-sm-10 border border-1 text-center" style="color: white; border-radius:15px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                    <h5 class="mt-2">Meus Favoritos</h5>
-                </div>
-                <div class="col-sm-1">
-
-                </div>
-            </div>
-            <div class="col-sm-1">
-
-            </div>
-            <div class="col-sm-1" style="margin-top: 35px;">
-                <!--First button-->
-                <div class="container-fluid">
-                    <button class="navbar-toggler first-button" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarToggleExternalContent9" aria-controls="navbarToggleExternalContent9" aria-expanded="false" aria-label="Toggle navigation">
-                        <div class="animated-icon1">
-                            <span></span><span></span><span></span>
-                        </div>
-                    </button>
-                </div>
-                <div class="collapse" id="navbarToggleExternalContent9">
-                    <div class="bg-light shadow-3 p-4">
-                        <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
-                        <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
-                        <button class="btn btn-link btn-block m-0">Link 3</button>
-                    </div>
+        <!-- Barra de Navegação Começa aqui -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../img/Casa.png" alt="Logo" width="60" height="50" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </ul>
+                    <form class="d-flex" action="">
+                        <button class="btn btn-outline-success me-5">Meus Favoritos &#9829; </button>
+                    </form>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" style="border-radius:30px" type="search" placeholder="Pesquisa" aria-label="Search">
+                        <button class="btn" type="submit">&#128269;</button>
+                    </form>
                 </div>
             </div>
-        </div>
+        </nav>
     </div>
 
     <div class="col-sm-12">
@@ -363,21 +327,21 @@
                 </div>
                 <div class="col-sm-2">
                     <h3>Localização</h3>
-                    
-                </div>
-                <div class="col-sm-1">
-                    
-                </div>
-                <div class="col-sm-2">
-                    <h3>Negócio</h3>
-                <h4><a href="" style="text-decoration: none;">Negócio</a></h4>
+
                 </div>
                 <div class="col-sm-1">
 
                 </div>
                 <div class="col-sm-2">
-                <h3>Contato</h3>
-                <h4><a href="" style="text-decoration: none;">Contato</a></h4>
+                    <h3>Negócio</h3>
+                    <h4><a href="" style="text-decoration: none;">Negócio</a></h4>
+                </div>
+                <div class="col-sm-1">
+
+                </div>
+                <div class="col-sm-2">
+                    <h3>Contato</h3>
+                    <h4><a href="" style="text-decoration: none;">Contato</a></h4>
                 </div>
             </div>
         </div>
