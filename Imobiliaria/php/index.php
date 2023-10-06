@@ -91,7 +91,7 @@
         <div class="col-sm-2">
             <!-- Espaçamento do Endereço -->
         </div>
-        <div class="col-sm-8" style="background-color: #5D7AA6; opacity:0,5">
+        <div class="col-sm-8" style="background-color: #3086c8; opacity:0,5;border-radius: 20px; margin-top: -45px; margin-bottom:25px ;z-index:2">
             <!-- Endereço começa aqui -->
             <form action=""> <!-- caso queira adicionar um metodo post -->
                 <div class="col-sm-12"> <!-- Subir a posição pra ajustar ao banner de cima -->
@@ -100,7 +100,7 @@
                             <!--Espaçamento -->
                         </div>
                         <div class="col-sm-2">
-                            <select name="AluguelCompra" class="form-select mt-3 mb-3" id="">
+                            <select name="AluguelCompra" class="form-select mt-3 mb-4" id="">
                                 <option value="Alugar">
                                     <h5>Alugar</h5>
                                 </option>
@@ -163,7 +163,7 @@
         </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4 mb-4">
         <div class="row">
             <div class="col-sm-12">
                 <!-- Carrossel inicia aqui -->
@@ -177,17 +177,17 @@
                         <!-- Coloquei os anúncios da TIM por que combinam com o site, depois substituo -->
                         <div class="carousel-item active">
                             <a href="">
-                                <img src="../img/TimAnuncio2.jpg" class="d-block w-100" height="400px" alt="...">
+                                <img src="../img/Banner1.png" class="d-block w-100" alt="...">
                             </a>
                         </div>
                         <div class="carousel-item">
                             <a href="">
-                                <img src="../img/TimAnuncio1.jpg" class="d-block w-100" height="400px" alt="...">
+                                <img src="../img/Banner2.png" class="d-block w-100" alt="...">
                             </a>
                         </div>
                         <div class="carousel-item">
                             <a href="">
-                                <img src="../img/TimAnuncio3.png" class="d-block w-100" height="400px" alt="...">
+                                <img src="../img/Banner3.png" class="d-block w-100" alt="...">
                             </a>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row text-center mt-2 mb-2">
+        <div class="row text-center mt-2 mb-4">
             <!-- Trocar a fonte depois, deixar a cor mais fraca -->
             <h1>Destaques</h1>
         </div>
@@ -233,7 +233,7 @@
                         <h4 class="card-title text-center" style="color: red;">Apartamento - Guarulhos</h4> <!-- Trocar Fonte também -->
                         <h5 class="card-title text-center" style="color: red;"><span class="mb-2">Bonsucesso</span></h5> <!-- Trocar Fonte também -->
                         <p class="card-text"><span class="mt-2 mb-1">Eis aqui um exemplo de interior de apartamento localizado em Guarulhos, Bonsucesso.</span></p> <!-- Trocar Fonte também -->
-                        <h4 class="card-text" style="color: grey;">Venda R$ 9.000.000,00</h4> <!-- Trocar Fonte também -->
+                        <h4 class="card-text" style="color: grey;">Venda R$ 40.000,00</h4> <!-- Trocar Fonte também -->
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -290,7 +290,7 @@
                         <h4 class="card-title text-center" style="color: red;">Sobrado - Guarulhos</h4> <!-- Trocar Fonte também -->
                         <h5 class="card-title text-center" style="color: red;"><span class="mb-2">Continental</span></h5> <!-- Trocar Fonte também -->
                         <p class="card-text"><span class="mt-2 mb-1">Eis aqui um exemplo de interior de apartamento localizado em Guarulhos, Continental.</span></p> <!-- Trocar Fonte também -->
-                        <h4 class="card-text" style="color: grey;">Venda R$ 14.000.000,00</h4> <!-- Trocar Fonte também -->
+                        <h4 class="card-text" style="color: grey;">Venda R$ 14.000,00</h4> <!-- Trocar Fonte também -->
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -319,33 +319,91 @@
         </div>
     </div>
     <!-- Depois de ter terminado a seleção dos produtos, o rodapé -->
-    <footer style="background-color: #5D7AA6;">
-        <div class="col-sm-12">
-            <div class="row">
-                <div class="col-sm-1">
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted mt-5">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
-                </div>
-                <div class="col-sm-2">
-                    <h3>Localização</h3>
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Imobiliária
+                        </h6>
+                        <p>
+                            Espaço dedicado à descrição da empresa.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
 
-                </div>
-                <div class="col-sm-1">
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Produtos
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Compra</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Venda</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Aluguel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
 
-                </div>
-                <div class="col-sm-2">
-                    <h3>Negócio</h3>
-                    <h4><a href="" style="text-decoration: none;">Negócio</a></h4>
-                </div>
-                <div class="col-sm-1">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Links Utéis
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Quem Somos</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Trabalhe Conosco</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Área do Cliente</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Garantia</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
 
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+                        <p> Guarulhos, SP 078-23080, BR</p>
+                        <p>
+
+                            imobliaria@email.com
+                        </p>
+                        <p>+55 11 989339207</p>
+                    </div>
+                    <!-- Grid column -->
                 </div>
-                <div class="col-sm-2">
-                    <h3>Contato</h3>
-                    <h4><a href="" style="text-decoration: none;">Contato</a></h4>
-                </div>
+                <!-- Grid row -->
             </div>
-        </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <iframe class="mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234268.60470386903!2d-46.6302383550047!3d-23.444337326778047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef53fb1b5e26d%3A0x974ce18d22c3555b!2sGuarulhos%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1696619382950!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Copyright -->
     </footer>
+    <!-- Footer -->
+
 </body>
 
 </html>
